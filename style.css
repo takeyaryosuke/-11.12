@@ -1,26 +1,36 @@
 .oya {
-    width: 500px;
+    width: 980px;
     height: 200px;
     background: #f6f5f4;
     overflow: hidden;
+    padding-left: 20px;
+    padding-right: 20px;
+    box-sizing: border-box;
 }
 
 .ko-wrap {
-    float: right;
     overflow: hidden;
     position: relative;
-    top: 50px;
+    top: calc(200px / 2 - 100px / 2);
+}
+
+.ko-wrap1 {
+    float: left;    
+}
+
+.ko-wrap2 {
+    float: right;
 }
 
 .ko {
     height: 100px;
     width: 100px;
     float: left;
-    margin-right: 10px;    
+    margin-right: 10px;
 }
 
 .ko:last-child {
-    margin-right: 0;
+    margin-right: inherit;
 }
 
 .ko1 {
